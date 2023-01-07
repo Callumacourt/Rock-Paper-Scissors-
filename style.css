@@ -1,0 +1,40 @@
+
+html, body {background-color: lightblue;
+height: 100%;
+width: 100%;}
+
+.choices {display: flex;
+justify-content: space-around;
+align-items: center;
+height: 960px;
+width: auto;
+margin-left: 20px;
+margin-right: 20px;
+order: +1;}
+
+button {width: 33%;
+    height: 10%;
+font-size: 30px;}
+
+.results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #result {font-size: 66px}
+
+  #userWinTracker, #computerWinTracker {
+    font-size: 44px;
+    text-align: center;
+  }
+  
+  #userWinTracker {
+    order: 2;
+  }
+  
+  #computerWinTracker {
+    order: 3;
+  }
+  
